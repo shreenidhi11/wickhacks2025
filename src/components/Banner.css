@@ -4,6 +4,7 @@
 }
 
 .maintitle {
+  margin-top: 35px;
   position: relative; /* Ensure the parent is relative */
   width: 100vw;
   height: 30vh;
@@ -24,21 +25,35 @@
 
 .textonbanner {
   color: white;
-  text-align: center;
-  font-size: 2rem;
+  /* text-align: center; */
+  transform: translate(-60%, 0.5%);
+  font-size: 3rem;
   position: absolute;
   z-index: 1; /* Ensures text is on top */
   max-width: 80%;
 }
 
-.subtextonbanner {
+/* .subtextonbanner {
   color: black;
   font-size: 1.75rem;
   position: absolute;
-  z-index: 2; /* Ensures text is on top */
+  z-index: 2; 
   max-width: 80%;
   top: 60%;
   text-align: center;
   line-height: 2px;
   font-weight: 400;
+} */
+
+.banner-image {
+  position: absolute;
+  /* top: 50px;
+  right: 50px; */
+
+  transform: translate(45%, 0.5%);
+  width: 800px; /* Adjust as needed */
+  /* height: auto; */
+  z-index: 2; /* Ensure it's above the background */
+  object-fit:contain; /* Prevent distortion */
+  padding: 10px; /* Add some spacing */
 }

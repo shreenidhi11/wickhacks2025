@@ -6,7 +6,7 @@
 .lostfoundsection {
   width: 50vw;
   margin: auto;
-  margin-top: 65px;
+  margin-top: 85px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -21,6 +21,8 @@
   height: 250px;
   width: 300px;
   transition: background-color 0.5s, color 0.5s;
+  /* padding: 20px;
+  border-radius: 10px; */
 }
 
 .add:hover,

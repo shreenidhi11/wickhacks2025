@@ -39,7 +39,7 @@ function ReportFoundItem() {
 
 
     return (
-        <div className="container">
+        <div className="formcontainer">
             <form onSubmit={handleSubmit}>
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -52,7 +52,7 @@ function ReportFoundItem() {
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPhonenumber4">Phone Number</label>
-                        <input name="phone" type="number" class="form-control" id="inputPhonenumber4" placeholder="1234" onChange={handleChange} />
+                        <input name="phone" type="text" class="form-control" id="inputPhonenumber4" placeholder="1234" onChange={handleChange} />
                     </div>
                 </div>
                 <div class="form-group col-md-6">
