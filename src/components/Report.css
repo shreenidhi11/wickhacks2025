@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lostfoundsection {
+  width: 50vw;
+  margin: auto;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.add,
+.found {
+  text-align: center;
+  background-color: rgb(235, 233, 233);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 250px;
+  width: 300px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.add:hover,
+.found:hover {
+  background-color: #f76902;
+  color: white !important;
+}
+
+.add:hover a,
+.found:hover a {
+  color: white !important;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 25px;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
